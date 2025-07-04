@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPDF</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>InsightPDF</h1>
+        <p class="subtitle">Conversational Intelligence for Your Files</p>
+
+        <div class="upload-section">
+            <h2>Upload Your PDF</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" id="pdfFile" name="pdf_file" accept=".pdf">
+                <button type="submit" id="uploadBtn">Upload & Process</button>
+            </form>
+            <div id="uploadStatus" class="status-message"></div>
+        </div>
+
+        <div class="chat-section">
+            <h2>Chat with your PDF</h2>
+            <div id="chatHistory" class="chat-history">
+                <div class="message assistant">
+                    <p>🤖 Hi there! Upload your PDF to start chatting.</p>
+                </div>
+            </div>
+            <form id="chatForm">
+                <input type="text" id="chatInput" placeholder="Ask a question about the PDF..." disabled>
+                <button type="submit" id="sendBtn" disabled>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

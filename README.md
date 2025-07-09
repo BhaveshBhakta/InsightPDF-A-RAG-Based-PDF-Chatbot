@@ -46,12 +46,12 @@ Built on **Groq’s ultra-fast LLaMA 3.3-70B model**, this project showcases how
 
 ---
 
-## 🖥️ UI Preview
+##  UI Preview
 ![Screenshot 2025-07-09 182020](https://github.com/user-attachments/assets/69268c12-5fda-4748-83e7-6ad25c846565)
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -88,7 +88,7 @@ python app.py
 ```
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 InsightPDF/
@@ -121,7 +121,7 @@ Use it to impress recruiters and hiring managers with your ability to build and 
 
 ---
 
-## 🔐 Security Notes
+## Security Notes
 
 * No user data or files are stored permanently
 * Groq API key is accessed securely via environment variable
@@ -129,7 +129,7 @@ Use it to impress recruiters and hiring managers with your ability to build and 
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Bhavesh Bhakta**
 🔗 [LinkedIn](https://www.linkedin.com/in/bhavesh-bhakta/)
